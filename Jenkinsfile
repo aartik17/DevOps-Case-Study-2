@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/ShubhamMore6688/DevOps-Case-Study.git'
+                git branch: 'master', url: 'https://github.com/aartik17/DevOps-Case-Study-2.git'
             }
         }
 
