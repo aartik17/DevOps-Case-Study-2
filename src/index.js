@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Server is up and running developed by shubham more');
+    res.send('Server is up and running developed by Aarti Kamble');
 });
 
 app.listen(PORT, () => {
