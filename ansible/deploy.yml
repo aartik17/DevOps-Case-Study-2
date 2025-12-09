@@ -17,13 +17,13 @@
 
     - name: Pull Node.js App Image from DockerHub
       community.docker.docker_image:
-        name: smore6688/devops-nodejs-app:latest
+        name: aarti1704/devops-nodejs-app:latest
         source: pull
 
     - name: Run Node.js Container
       community.docker.docker_container:
         name: nodejs-app
-        image: smore6688/devops-nodejs-app:latest
+        image: aarti1704/devops-nodejs-app:latest
         ports:
           - "80:3000"
         state: started
